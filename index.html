@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <title>ถึงอัยอ้วนกากๆของน้องอิ๋ง💜</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="login-box" id="loginBox">
+  <h2>🔐เข้าสู่หัวใจน้องอิ๋งก่อนน้าพี่ดาวนี่</h2>
+  <input type="text" id="username" placeholder="ชื่ออัยหมูแคระกากๆ">
+  <input type="password" id="password" placeholder="รหัสลับ(วันครบรอบน่ะจำได้มั้ยห๊าาา)">
+  <button onclick="login()">เข้าสู่หัวใจของน้องอิ๋งด้ายเยย💜</button>
+  <p id="error"></p>
+</div>
+
+<div class="love-box" id="loveBox">
+  <audio id="bgm" src="music.mp3" loop></audio>
+
+  <h1>💜มาจีบอัยอ้วนดาวนี่ใหม่น่ะอิอิ💜</h1>
+  <img src="54532.jpg" alt="my love">
+
+  <p class="text">
+    ตั้งแต่มีเบบิ๋เค้าก็เหมือนมีอุนแม่เพิ่มเข้ามาอีกคนแหนะ  
+    ขี้บ่น ขี้ดุ อบอุ่น ใจดี ขี้ตามใจ ไม่ว่าจะเป็นยังไง 💜  
+    น้องอิ๋งก็รักพี่ดาวนี่ที่สุดในโลก
+  </p>
+
+  <button onclick="showLove()">อ่านหัวใจของน้องอิ๋ง💌</button>
+  <p id="loveText"></p>
+
+  <div class="choice">
+    <button class="yes" onclick="acceptLove()">ตกลงเป็นแฟนกับน้องอิ๋งอีกครั้ง💍</button>
+    <button class="no" onclick="moveNo()">มั่ยเป็นหรอกนะ🙈</button>
+  </div>
+
+  <h2 id="result"></h2>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
